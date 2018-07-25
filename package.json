@@ -1,0 +1,19 @@
+{
+  "name": "mvp",
+  "version": "0.0.1",
+  "description": "in-browser video streaming via node streams",
+  "main": "mvp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "demo": "wzrd mvp.js"
+  },
+  "author": "Noah Anabiik Schwarz",
+  "license": "MIT",
+  "dependencies": {
+    "getusermedia": "^2.0.1",
+    "media-recorder-stream": "^2.1.1"
+  },
+  "devDependencies": {
+    "wzrd": "^1.5.0"
+  }
+}
