@@ -1,3 +1,5 @@
+const { Writable } = require('stream')
+
 const DEFAULT_OPTS = {
   mimeCodec: 'video/webm; codecs="vorbis, vp8"'
 }

@@ -1,3 +1,6 @@
+const getMedia = require('getusermedia')
+const recorder = require('media-recorder-stream')
+
 const DEFAULT_OPTS = {
   audio: true,
   video: true,
